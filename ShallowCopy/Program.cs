@@ -47,7 +47,7 @@ namespace ShallowCopy
             Console.WriteLine("Product Obje - Category- Picture: " + product.Categories.Picture);
             
             //Bazı durumlarda, elimizde ki modelinin kopyasını çıkartıp bazı alanları değiştirmek isteriz 
-            //Genellikle nasıl yaparız ? 
+            //Genellikle nasıl yapıyoruz ? 
             
             var newProduct = new Products();
             newProduct.ProductName = "Silgi";
@@ -56,21 +56,20 @@ namespace ShallowCopy
             newProduct.UnitInStock = newProduct.UnitInStock;
             newProduct.Categories = newProduct.Categories;
             newProduct.Orders = newProduct.Orders;
-            //... bu şekilde devam eder. 
+            //... bu şekilde devam ettiriyoruz. 
             
-            //Sınıfın çok fazla özelliği olduğu durumlarda bu şekilde manuel yazmak hem efektif olmıcak, hem de sınıfa yeni eklenen
-            //bir property olması durumunda
+            //Sınıfın çok fazla özelliği olduğu durumlarda bu şekilde manuel yazmak hem efektif olmıcak, hem de sınıfa yeni eklenen bir property olması durumunda
             //bu sınıftan kopyalama yaptığımız her yerde güncelleme yapıyor olmamız gerekiyor. 
             
             //Veya başka türlü nasıl yaparız ? 
 
             var newProduct2 = product;
             
-            //Peki yeni örneklediğimiz nesnede birşeyler değiştirmek istersen nasıl bir sonuç alırım ?
+            //Peki yeni örneklediğimiz nesnede birşeyler değiştirmek istersek nasıl bir sonuç alırım ?
 
-            //newProduct2.ProductName = "Kalem Tıraş";
+            newProduct2.ProductName = "Kalem Tıraş";
             
-            //Bu şekilde yaparsak şöyle bir çıktı alırız. 
+            //Bu şekilde yaparsak şöyle bir çıktı alıyoruz. 
             
             Console.WriteLine("");
             Console.WriteLine("--- Second Product ---");
@@ -138,8 +137,6 @@ namespace ShallowCopy
             newProduct2.Categories.CategoryName="Çanta";
             newProduct2.Categories.Description="Kategori Açıklama 2";
             newProduct2.Categories.Picture="123.jpg";
-
-        
             
             Console.WriteLine("--- ShallowCopy Object Category 2 ---");
 
@@ -151,6 +148,7 @@ namespace ShallowCopy
             Console.WriteLine("NewProduct2 Obje - Category- Picture: " + newProduct2.Categories.Picture);
             
             Console.WriteLine("");
+            
             Console.WriteLine("--- ShallowCopy Object Category 1 ---");
             
             Console.WriteLine("");
@@ -159,9 +157,7 @@ namespace ShallowCopy
             Console.WriteLine("Product Obje - Category -CategoryName: " + product.Categories.CategoryName);
             Console.WriteLine("Product Obje - Category- Description: " + product.Categories.Description);
             Console.WriteLine("Product Obje - Category- Picture: " + product.Categories.Picture);
-            
-            Console.WriteLine("");
-            
+
             //Çıktıya baktığımızda, newProduct2.Category' de değişiklik yaptık ama yaptığımız değişiklikler 1.product.category objeme de yansımış,
          
             //primitive tipler haricinde obje nesnelerini ShollowCopy kopyalayamıyor. 
