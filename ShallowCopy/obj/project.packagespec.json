@@ -17,7 +17,11 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "projectReferences": {}
+        "projectReferences": {
+          "/Users/serkaneren/Desktop/gitP/DeepShallowCopy/Copy.Models/Copy.Models.csproj": {
+            "projectPath": "/Users/serkaneren/Desktop/gitP/DeepShallowCopy/Copy.Models/Copy.Models.csproj"
+          }
+        }
       }
     },
     "warningProperties": {

@@ -1,0 +1,8 @@
+/Users/serkaneren/Desktop/gitP/DeepShallowCopy/Copy.Models/bin/Debug/netcoreapp3.1/Copy.Models.deps.json
+/Users/serkaneren/Desktop/gitP/DeepShallowCopy/Copy.Models/bin/Debug/netcoreapp3.1/Copy.Models.dll
+/Users/serkaneren/Desktop/gitP/DeepShallowCopy/Copy.Models/bin/Debug/netcoreapp3.1/Copy.Models.pdb
+/Users/serkaneren/Desktop/gitP/DeepShallowCopy/Copy.Models/obj/Debug/netcoreapp3.1/Copy.Models.csprojAssemblyReference.cache
+/Users/serkaneren/Desktop/gitP/DeepShallowCopy/Copy.Models/obj/Debug/netcoreapp3.1/Copy.Models.AssemblyInfoInputs.cache
+/Users/serkaneren/Desktop/gitP/DeepShallowCopy/Copy.Models/obj/Debug/netcoreapp3.1/Copy.Models.AssemblyInfo.cs
+/Users/serkaneren/Desktop/gitP/DeepShallowCopy/Copy.Models/obj/Debug/netcoreapp3.1/Copy.Models.dll
+/Users/serkaneren/Desktop/gitP/DeepShallowCopy/Copy.Models/obj/Debug/netcoreapp3.1/Copy.Models.pdb

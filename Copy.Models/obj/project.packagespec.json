@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/serkaneren/Desktop/gitP/DeepShallowCopy/DeepCopy/DeepCopy.csproj",
-    "projectName": "DeepCopy",
-    "projectPath": "/Users/serkaneren/Desktop/gitP/DeepShallowCopy/DeepCopy/DeepCopy.csproj",
-    "outputPath": "/Users/serkaneren/Desktop/gitP/DeepShallowCopy/DeepCopy/obj/",
+    "projectUniqueName": "/Users/serkaneren/Desktop/gitP/DeepShallowCopy/Copy.Models/Copy.Models.csproj",
+    "projectName": "Copy.Models",
+    "projectPath": "/Users/serkaneren/Desktop/gitP/DeepShallowCopy/Copy.Models/Copy.Models.csproj",
+    "outputPath": "/Users/serkaneren/Desktop/gitP/DeepShallowCopy/Copy.Models/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -17,11 +17,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "projectReferences": {
-          "/Users/serkaneren/Desktop/gitP/DeepShallowCopy/Copy.Models/Copy.Models.csproj": {
-            "projectPath": "/Users/serkaneren/Desktop/gitP/DeepShallowCopy/Copy.Models/Copy.Models.csproj"
-          }
-        }
+        "projectReferences": {}
       }
     },
     "warningProperties": {
