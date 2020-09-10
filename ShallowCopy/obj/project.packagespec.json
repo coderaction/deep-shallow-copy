@@ -20,6 +20,9 @@
         "projectReferences": {
           "/Users/serkaneren/Desktop/gitP/DeepShallowCopy/Copy.Models/Copy.Models.csproj": {
             "projectPath": "/Users/serkaneren/Desktop/gitP/DeepShallowCopy/Copy.Models/Copy.Models.csproj"
+          },
+          "/Users/serkaneren/Desktop/gitP/DeepShallowCopy/DeepCopy/DeepCopy.csproj": {
+            "projectPath": "/Users/serkaneren/Desktop/gitP/DeepShallowCopy/DeepCopy/DeepCopy.csproj"
           }
         }
       }

@@ -11,6 +11,19 @@
         "runtime": {
           "bin/placeholder/Copy.Models.dll": {}
         }
+      },
+      "DeepCopy/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Copy.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DeepCopy.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DeepCopy.dll": {}
+        }
       }
     }
   },
@@ -19,11 +32,17 @@
       "type": "project",
       "path": "../Copy.Models/Copy.Models.csproj",
       "msbuildProject": "../Copy.Models/Copy.Models.csproj"
+    },
+    "DeepCopy/1.0.0": {
+      "type": "project",
+      "path": "../DeepCopy/DeepCopy.csproj",
+      "msbuildProject": "../DeepCopy/DeepCopy.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Copy.Models >= 1.0.0"
+      "Copy.Models >= 1.0.0",
+      "DeepCopy >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -56,6 +75,9 @@
           "projectReferences": {
             "/Users/serkaneren/Desktop/gitP/DeepShallowCopy/Copy.Models/Copy.Models.csproj": {
               "projectPath": "/Users/serkaneren/Desktop/gitP/DeepShallowCopy/Copy.Models/Copy.Models.csproj"
+            },
+            "/Users/serkaneren/Desktop/gitP/DeepShallowCopy/DeepCopy/DeepCopy.csproj": {
+              "projectPath": "/Users/serkaneren/Desktop/gitP/DeepShallowCopy/DeepCopy/DeepCopy.csproj"
             }
           }
         }

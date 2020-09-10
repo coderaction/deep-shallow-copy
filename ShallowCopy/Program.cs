@@ -1,10 +1,10 @@
 ﻿using System;
+using Copy.Models;
 
 namespace ShallowCopy
 {
      static class Program
     {
-        //Normal şartlarda 
         static void Main(string[] args)
         {
             var product = new Products();
@@ -58,7 +58,8 @@ namespace ShallowCopy
             newProduct.Orders = newProduct.Orders;
             //... bu şekilde devam eder. 
             
-            //Sınıfın çok fazla özelliği olduğu durumlarda bu şekilde manuel yazmak hem efektif olmıcak, hem de sınıfa yeni eklenen bir property olması durumunda
+            //Sınıfın çok fazla özelliği olduğu durumlarda bu şekilde manuel yazmak hem efektif olmıcak, hem de sınıfa yeni eklenen
+            //bir property olması durumunda
             //bu sınıftan kopyalama yaptığımız her yerde güncelleme yapıyor olmamız gerekiyor. 
             
             //Veya başka türlü nasıl yaparız ? 
@@ -87,9 +88,11 @@ namespace ShallowCopy
             Console.WriteLine("Product Obje - Category- Picture: " + product.Categories.Picture);
             
            //Çıktıya bakıyoruz product.ProductName normalde "Kalem" olarak vermesi gerekirken, "Kalem Tıraş" çıktısı alıyoruz
-           //2. product nesnesi olan newProduct2 'de değişikliklerin,1. product nesnemizde hiç bir değişiklik yapmamımıza rağmen 1. product nesneside değişiyor. 
+           //2. product nesnesi olan newProduct2 'de değişikliklerin,1. product nesnemizde hiç bir değişiklik yapmamımıza rağmen
+           //1. product nesneside değişiyor. 
            
-           //Yukarıda ki gibi yaptığımızda da newProduct2.ProductName 'i değiştirdiğimde product objemde ki name alanıda "Kalemden", "KalemTıraş" olarak değiştiğini görürsünüz
+           //Yukarıda ki gibi yaptığımızda da newProduct2.ProductName 'i değiştirdiğimde product objemde ki name alanıda "Kalemden",
+           //"KalemTıraş" olarak değiştiğini görürsünüz
            
             //Tam da bunların önüne geçmek için Shallow Copy kullanıyoruz. 
 
@@ -168,5 +171,4 @@ namespace ShallowCopy
             //Elimizde ki değişkenin tamamen baştan kopyasını çıkartmak için DeepCopy Kullanıyoruz. 
         }
     }
-
 }
