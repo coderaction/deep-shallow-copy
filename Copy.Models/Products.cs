@@ -1,4 +1,7 @@
-﻿using System;
+﻿
+
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
 
 namespace Copy.Models
 {
@@ -16,5 +19,18 @@ namespace Copy.Models
         {
             return (Products) MemberwiseClone();
         }
+        
+        public Products DeepCopy()
+        {
+            using (var memoryStream = new MemoryStream())
+            {
+                var formatter = new BinaryFormatter();
+                formatter.Serialize(memoryStream, this);
+                memoryStream.Position = 0;
+
+                return (Products)formatter.Deserialize(memoryStream);
+            }
+        }
+
     }
 }

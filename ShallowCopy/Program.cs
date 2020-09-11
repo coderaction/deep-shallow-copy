@@ -7,6 +7,8 @@ namespace ShallowCopy
     {
         static void Main(string[] args)
         {
+            //ShallowCopy 'e başlamadan önce bir nesne yaratalım ve içini dolduralım 
+            
             var product = new Products();
             product.ProductName = "Kalem";
             product.Discontinued = false;
@@ -93,7 +95,7 @@ namespace ShallowCopy
            //Yukarıda ki gibi yaptığımızda da newProduct2.ProductName 'i değiştirdiğimde product objemde ki name alanıda "Kalemden",
            //"KalemTıraş" olarak değiştiğini görürsünüz
            
-            //Tam da bunların önüne geçmek için Shallow Copy kullanıyoruz. 
+            //Tam da bunların önüne geçmek için ShallowCopy kullanıyoruz. 
 
             //Product model içine, sonradan ShollowCopy adı altında bir method ekliyorum ve aşağıda ki gibi olduğu modeli kopyalıyorum
             
@@ -159,12 +161,14 @@ namespace ShallowCopy
             Console.WriteLine("Product Obje - Category- Picture: " + product.Categories.Picture);
 
             //Çıktıya baktığımızda, newProduct2.Category' de değişiklik yaptık ama yaptığımız değişiklikler 1.product.category objeme de yansımış,
+            //bu bizim istemediğimiz senaryo, ben bir kopya istedim, sonra o kopyada ki nesnenin bir özelliğini değiştirmek istiyorum ama kopyaladığım 
+            //ana nesnede değişiyor. Kopyalama kısmı olarak gerçekleşiyor ama tam kopyalayamıyorum
          
             //primitive tipler haricinde obje nesnelerini ShollowCopy kopyalayamıyor. 
             
             //Bu yüzden DeepCopy Kullanıyoruz. 
             
-            //Elimizde ki değişkenin tamamen baştan kopyasını çıkartmak için DeepCopy Kullanıyoruz. 
+            //Elimizde ki değişkenin tamamen baştan kopyasını çıkartmak için DeepCopy kullanıyoruz. 
         }
     }
 }

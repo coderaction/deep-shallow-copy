@@ -3,11 +3,13 @@
 /Users/serkaneren/Desktop/gitP/DeepShallowCopy/ShallowCopy/bin/Debug/netcoreapp3.1/ShallowCopy.runtimeconfig.dev.json
 /Users/serkaneren/Desktop/gitP/DeepShallowCopy/ShallowCopy/bin/Debug/netcoreapp3.1/ShallowCopy.dll
 /Users/serkaneren/Desktop/gitP/DeepShallowCopy/ShallowCopy/bin/Debug/netcoreapp3.1/ShallowCopy.pdb
+/Users/serkaneren/Desktop/gitP/DeepShallowCopy/ShallowCopy/bin/Debug/netcoreapp3.1/Copy.Models.dll
+/Users/serkaneren/Desktop/gitP/DeepShallowCopy/ShallowCopy/bin/Debug/netcoreapp3.1/DeepCopy.dll
+/Users/serkaneren/Desktop/gitP/DeepShallowCopy/ShallowCopy/bin/Debug/netcoreapp3.1/Copy.Models.pdb
+/Users/serkaneren/Desktop/gitP/DeepShallowCopy/ShallowCopy/bin/Debug/netcoreapp3.1/DeepCopy.pdb
 /Users/serkaneren/Desktop/gitP/DeepShallowCopy/ShallowCopy/obj/Debug/netcoreapp3.1/ShallowCopy.csprojAssemblyReference.cache
 /Users/serkaneren/Desktop/gitP/DeepShallowCopy/ShallowCopy/obj/Debug/netcoreapp3.1/ShallowCopy.AssemblyInfoInputs.cache
 /Users/serkaneren/Desktop/gitP/DeepShallowCopy/ShallowCopy/obj/Debug/netcoreapp3.1/ShallowCopy.AssemblyInfo.cs
+/Users/serkaneren/Desktop/gitP/DeepShallowCopy/ShallowCopy/obj/Debug/netcoreapp3.1/ShallowCopy.csproj.CopyComplete
 /Users/serkaneren/Desktop/gitP/DeepShallowCopy/ShallowCopy/obj/Debug/netcoreapp3.1/ShallowCopy.dll
 /Users/serkaneren/Desktop/gitP/DeepShallowCopy/ShallowCopy/obj/Debug/netcoreapp3.1/ShallowCopy.pdb
-/Users/serkaneren/Desktop/gitP/DeepShallowCopy/ShallowCopy/bin/Debug/netcoreapp3.1/Copy.Models.dll
-/Users/serkaneren/Desktop/gitP/DeepShallowCopy/ShallowCopy/bin/Debug/netcoreapp3.1/Copy.Models.pdb
-/Users/serkaneren/Desktop/gitP/DeepShallowCopy/ShallowCopy/obj/Debug/netcoreapp3.1/ShallowCopy.csproj.CopyComplete

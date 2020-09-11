@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v3.1": {
       "ShallowCopy/1.0.0": {
         "dependencies": {
-          "Copy.Models": "1.0.0"
+          "Copy.Models": "1.0.0",
+          "DeepCopy": "1.0.0"
         },
         "runtime": {
           "ShallowCopy.dll": {}
@@ -17,6 +18,14 @@
       "Copy.Models/1.0.0": {
         "runtime": {
           "Copy.Models.dll": {}
+        }
+      },
+      "DeepCopy/1.0.0": {
+        "dependencies": {
+          "Copy.Models": "1.0.0"
+        },
+        "runtime": {
+          "DeepCopy.dll": {}
         }
       }
     }
@@ -28,6 +37,11 @@
       "sha512": ""
     },
     "Copy.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DeepCopy/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
