@@ -1,10 +1,10 @@
-﻿
-
+﻿using System;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 
 namespace Copy.Models
 {
+    [Serializable]
     public class Products    
     {
         public string ProductName { get; set; }

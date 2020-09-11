@@ -1,5 +1,8 @@
+using System;
+
 namespace Copy.Models
 {
+    [Serializable]
     public class Categories
     {
         public int CategoryId { get; set; }

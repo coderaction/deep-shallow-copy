@@ -1,5 +1,8 @@
+using System;
+
 namespace Copy.Models
 {
+    [Serializable]
     public class Orders
     {
         public int Id { get; set; }
